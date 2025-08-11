@@ -1,10 +1,9 @@
-import Image from "next/image";
+import { Calendar } from "@/components/Calendar";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Heading</h1>
-    </div>
-
+    <main className="bg-gray-100 min-h-screen">
+      <Calendar />
+    </main>
   );
 }
