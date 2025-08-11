@@ -34,7 +34,7 @@ export function TodoList({ list, onAddItem, onRemoveItem, onToggleItem, onComple
                     type="text" 
                     value={newItem} 
                     onChange={(e) => setNewItem(e.target.value)} 
-                    className="flex-grow p-1 border border-pink-200 rounded-l-md focus:outline-none focus:ring-1 focus:ring-pink-500 text-xs"
+                    className="flex-grow min-w-0 p-1 border border-pink-200 rounded-l-md focus:outline-none focus:ring-1 focus:ring-pink-500 text-xs"
                     placeholder="Add plans"
                 />
                 <button 
